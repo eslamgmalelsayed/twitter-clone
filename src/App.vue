@@ -1,7 +1,7 @@
 <template>
   <div class="app">
    <div class="container">
-    <div class="row m-auto">
+    <div class="row m-auto g-0">
       <div class="col-xl-3 col-2 pt-2">
         <sideComp />
       </div>
@@ -41,10 +41,13 @@ export default {
   text-transform: capitalize;
   font-family: 'Roboto', sans-serif;
   font-style: inherit;
-  height: 100vh;
   overflow: hidden;
-  background: #000;
   color: #fff;
+  background: #000;
+}
+body{
+  height: 100vh;
+  background: #000 !important;
 }
 .borderr{
   border: 1px solid rgb(78, 76, 76);

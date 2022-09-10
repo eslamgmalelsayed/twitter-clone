@@ -62,7 +62,6 @@ export default {
 <style lang="scss" scoped>
 .links{
     .single-link{
-        height: fit-content;
         margin-bottom: 1.4rem;
         a{     
             text-decoration: none;
@@ -70,14 +69,14 @@ export default {
         }
     }
     button{
-        height: fit-content;
         background: #1A8CD8;
         // border-radius: 50%;
     }
     img{
+        object-fit: contain;
         @media(max-width:1200px){
-            width: 40px;
-            height: 30px;
+            width: 35px;
+            height: 35px;
         }
     }
 }
